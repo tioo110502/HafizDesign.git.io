@@ -1,0 +1,175 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid #513c28;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  
+}
+
+#logo {
+    height: 100%;
+    width: 100%;
+}
+
+.menu {
+    font-size: 1.2rem;
+    display: inline;
+}
+
+.menu a {
+    padding: 4rem;
+    text-decoration: none;
+}
+
+#extra a {
+    padding: 2rem;
+}
+#main{
+background-color: rgb(33, 37, 78);
+}
+#content {
+    max-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#content img {
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+}
+
+
+/*mobile*/
+@media only screen and (max-width: 400px) {
+    html {
+        font-size: 60%;
+    }
+    #logo{
+        max-width: 6rem;
+    }
+    
+    .menu {
+        font-size: 1rem;
+        display: inline;
+    }
+    
+    .menu a {
+        padding: 1rem;
+    }
+    
+    #extra a {
+        padding: 0.8rem;
+    }
+    #content img{
+        max-height: 20rem;
+        max-width: 15rem;
+    }
+}
+
+/*mobile*/
+@media only screen and (min-width: 400px) {
+    html {
+        font-size: 65%;
+    }
+    #logo{
+        max-width: 7rem;
+    }
+    .menu {
+        font-size: 1.5rem;
+        display: inline;
+    }
+    
+    .menu a {
+        padding: 1rem;
+    }
+    
+    #extra a {
+        padding: 1rem;
+    }
+    #content img{
+        max-height: 27rem;
+        max-width: 21rem;
+    }
+}
+
+/*mobile*/
+@media only screen and (min-width: 600px) {
+    html {
+        font-size: 65%;
+    }
+    #logo{
+        max-width: 8rem;
+    }
+    .menu {
+        font-size: 2rem;
+        display: inline;
+    }
+    
+    .menu a {
+        padding: 1.5rem;
+    }
+    
+    #extra a {
+        padding: 1.5rem;
+    }
+    #content img{
+        max-height: 32rem;
+        max-width: 24rem;
+    }
+    
+}
+
+/*ipad*/
+@media (min-width: 1200px) {
+    html {
+        font-size: 70%;
+    }
+    #logo{
+        max-width: 8rem;
+    }
+    .menu {
+        font-size: 2rem;
+        display: inline;
+    }
+    
+    .menu a {
+        padding: 1.5rem;
+    }
+    
+    #extra a {
+        padding: 1.5rem;
+    }
+    #content img{
+        max-height: 36rem;
+        max-width: 27rem;
+    }
+}
+
+
+footer{
+    height: 3rem;
+    width: 100%;
+    background-color: aqua;
+    color: black;
+    font-size: 2rem;
+}
+
